@@ -1,0 +1,61 @@
+.compare-switcher {
+    display: block;
+    position: fixed;
+    width: 400px;
+    background-color: #FFF;
+    right: -400px;
+    top: 148px;
+    color: #333;
+    border: 1px solid #DDD;
+    border-right: 0;
+    z-index: 1101;
+}
+.compare-switcher.compare-switcher-active {
+    right: 0px;
+}
+.compare-switcher-head {
+    position: relative;
+    height: 46px;
+    line-height: 46px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #333
+}
+.compare-switcher-head span {
+    display: block;
+    margin: 0 20px;
+    border-bottom: 2px solid #EEE
+}
+.compare-switcher-trigger {
+    position: absolute;
+    cursor: pointer;
+    top: -1px;
+    left: -60px;
+    right: auto;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-right: 0;
+    border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+}
+.compare-switcher-body {
+    position: relative;
+    padding: 20px
+}
+
+.compare-switcher-body .compare-table-container {
+    overflow-y: auto;
+    max-height: 235px;
+}
+.compare-switcher-body .table a {
+    color: #333;
+}
+.compare-switcher .table tr:first-child > td{
+    border-top: 0;
+}

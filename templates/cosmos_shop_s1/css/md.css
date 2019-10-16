@@ -1,0 +1,112 @@
+body * {
+    letter-spacing: 0px !important;
+}
+.feature-box h3, #primary-menu ul li a,
+.heading-block h1, .heading-block h2, .heading-block h3,
+.heading-block h4, .emphasis-title h1, .emphasis-title h2,
+.entry-title h2, #page-title h1,
+.team-title h4, label, .slider-caption h2,
+.widget > h4 {
+	text-transform: none;
+}
+/*.swiper_wrapper {
+	height: 350px;
+}*/
+.bx-core-adm-dialog .section td table {
+    margin-bottom: 0px;
+}
+.col_three_fourth .small-thumbs .entry-image, .ievent .entry-image {
+    width: 220px;
+}
+.breadcrumb {
+    position: relative !important;
+    top: auto !important;
+    margin: 10px 0 0 !important;
+    right: auto !important;
+}
+#content .content-wrap {
+    padding: 30px 0;
+}
+.single-post .entry-meta {
+    margin-bottom: 0px;
+}
+.content-wrap .header-stick {
+    margin-top: -30px !important;
+}
+#primary-menu ul li i {
+    margin-right: 0px;
+    font-size: 12px !important;
+    color: #C3C3C3;
+}
+.widget-vertical-menu li i {
+    margin-left: 8px;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+    width: 30px;
+}
+.root-item-selected > a, .item-selected  > a{
+    font-weight: bold;
+}
+/*.widget-vertical-menu li > a:before {
+    font-family: 'font-icons';
+    content: "\e7a5";
+    position: absolute;
+    right: 20px;
+}*/
+ul.widget-vertical-menu li.root-item ul {
+    display: none;
+}
+.team.team-list .team-image {
+    width: 150px;
+}
+.slider-caption:not(.dark), .slider-caption:not(.dark) h2 {
+    font-size: 32px;
+    color: #FFF;
+    font-weight: normal;
+}
+.swiper-container .slider-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+.swiper-container .slider-caption p {
+    color: #FFF;
+    font-size: 15px;
+}
+.widget .fancy-title h3 {
+    font-size: 18px;
+}
+#portfolio .portfolio-desc {
+    min-height: 135px;
+}
+#quick-contact-captcha {
+    margin-top: 12px;
+}
+.footer-big-contacts span {
+    display: block;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-big-contacts {
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333;
+    letter-spacing: 2px;
+}
+.dark .footer-big-contacts span { color: rgba(255,255,255,0.8); }
+.dark .footer-big-contacts { color: rgba(255, 255, 255, 0.25); }
+@media only screen and (max-width: 991px) {
+    #primary-menu > ul > li.sub-menu > a, #primary-menu > .container > ul > li.sub-menu > a {
+        background: transparent;
+    }
+}
+@media only screen and (max-width: 767px) {
+  :before,
+  :after {
+    display: inline;
+  }
+}

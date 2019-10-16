@@ -1,0 +1,27 @@
+.events .entry-meta li {
+	font-style: normal;
+	color: #555;
+	float: none;
+	line-height: 15px;
+}
+.events .entry-meta li:before {
+	content: initial;
+}
+.dark .events .entry-meta li {
+	color: #aaa;
+}
+#events_list.small-thumbs .entry-image {
+	width: 185px !important;
+}
+#events_list .entry-meta {
+	margin: 10px 0px 5px 0;
+}
+#events_list .entry-meta .label {
+	font-size: initial;
+	font-style: normal;
+	margin-bottom: 3px;
+	font-weight: normal;
+}
+.events .entry-meta li {
+	margin: 0 10px 4px 0;
+

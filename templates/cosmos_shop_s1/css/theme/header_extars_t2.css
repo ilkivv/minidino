@@ -1,0 +1,10 @@
+.dark .header-extras li .he-text span b {
+    color: #eee;
+}
+#primary-menu.style-2 > div > ul > li > a {
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+#primary-menu.style-2 > div > ul > li:first-child > a {
+    padding-left: 0px;
+}

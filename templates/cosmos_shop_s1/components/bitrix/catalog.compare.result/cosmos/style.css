@@ -1,0 +1,28 @@
+.bx_compare .bx_filtren_container{
+	margin: 20px 0;
+	padding:2.6%;
+	border:7px solid #F3F3F3;
+	border-radius:2px;
+}
+.bx_compare .bx_filtren_container h5{
+	font-size:15px;
+	margin:0 0 23px 0;
+}
+.bx_compare .bx_filtren_container ul{
+	margin:0;
+	padding:0;
+}
+.bx_compare .bx_filtren_container ul li{
+	position:relative;
+	display:inline-block;
+	width:150px;
+	margin-right:25px;
+	margin-bottom:10px;
+	padding-left:18px;
+	vertical-align:top;
+}
+.bx_compare .bx_filtren_container ul li span{
+	font-size:13px;
+	line-height:20px;
+	text-decoration:none;
+}

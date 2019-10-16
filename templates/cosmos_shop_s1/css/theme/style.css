@@ -1,0 +1,149 @@
+/* ----------------------------------------------------------------
+    CSS Specific to the Construction Demo
+
+    Some of the CSS Codes have been modified from the Original
+    style.css File to match the Styling of this Demo
+
+    Version: 1.0
+-----------------------------------------------------------------*/
+
+
+#top-bar {
+    z-index: 1;
+    background-color: #FFF;
+}
+
+.top-links li > a {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.top-links ul ul a { font-size: 11px; }
+
+.header-extras li {
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #EEE;
+}
+
+.header-extras li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+}
+
+.header-extras li i {
+    margin-top: 0 !important;
+    font-size: 36px !important;
+}
+
+.header-extras li .he-text {
+    padding-left: 15px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header-extras li .he-text span {
+    font-weight: 600;
+    text-transform: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+
+#header { background-color: #F9F9F9; }
+
+#header-wrap { background-color: #FFF; }
+.dark #header-wrap { background-color: #282828; }
+.swiper_wrapper {height: 550px;}
+
+#primary-menu.style-2 > div > ul > li > a i { line-height: 57px; }
+
+
+.device-sm #primary-menu i.icon-angle-down,
+.device-xs #primary-menu i.icon-angle-down,
+.device-xxs #primary-menu i.icon-angle-down { display: none !important; }
+
+
+.lowercase { text-transform: lowercase !important; }
+
+.testi-meta span { color: rgba(255,255,255,0.65); }
+
+
+
+.iconlist.iconlist-large { font-size: 17px !important; }
+
+.iconlist.iconlist-large li { margin: 8px 0 !important; }
+
+.iconlist.iconlist-large li i { top: 0; }
+
+
+.testi-content p {
+    font-style: normal;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 1.6 !important;
+    margin-bottom: 40px;
+}
+
+
+
+.footer-big-contacts {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-big-contacts span {
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 2px;
+}
+
+.dark .footer-big-contacts { color: rgba(255,255,255,0.8); }
+
+
+
+/* ----------------------------------------------------------------------------
+    Helper CSS Classes
+---------------------------------------------------------------------------- */
+
+.t300 { font-weight: 300 !important; }
+
+.t400 { font-weight: 400 !important; }
+
+.t500 { font-weight: 500 !important; }
+
+.t600 { font-weight: 600 !important; }
+
+.t700 { font-weight: 700 !important; }
+
+.ls1 { letter-spacing: 1px !important; }
+
+.ls2 { letter-spacing: 2px !important; }
+
+.ls3 { letter-spacing: 3px !important; }
+
+.ls4 { letter-spacing: 4px !important; }
+
+.ls5 { letter-spacing: 5px !important; }
+
+.noheight { height: 0 !important; }
+
+.nolineheight { line-height: 0 !important; }
+
+.color, #primary-menu ul ul li:hover > a, #primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover, .top-cart-item-desc a:hover, .faqlist li a:hover, .tagcloud a:hover, .dark .top-cart-item-desc a:hover, .iconlist-color li i, .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li:hover > a, .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li.current > a, .overlay-menu #primary-menu.dark > ul > li:hover > a, .overlay-menu #primary-menu.dark > ul > li.current > a {
+    color: #F18052 !important;
+}
+

@@ -1,0 +1,50 @@
+/* Header */
+
+#header{
+    background: #f7f7f7;
+}
+
+#primary-menu ul li > a i:first-child{
+    display: none;
+}
+
+/* Portfolio masonry */
+
+.portfolio-filter{
+    /*display: none !important;*/
+}
+
+.portfolio-masonry .product:nth-child(4) + .product{
+    display: none !important;
+}
+
+.sale-flash{
+    display: none !important;
+}
+
+/* Footer */
+
+.copyrights-menu a{
+	width:auto;
+}
+.copyrights-menu a:last-child{
+	margin-right: 0 !important;
+}
+@media only screen and (min-width:480px) {
+	.copyrights-menu a, .copyrights-menu a:nth-child(2n){
+		margin-right: 30px !important;
+		width: auto;
+	}
+}
+
+@media only screen and (min-width:992px) {
+	#primary-menu ul li .mega-menu-content ul:not(.megamenu-dropdown){
+		float: none !important;
+		display: inline-block !important;
+		vertical-align: top !important;
+	}
+	#primary-menu ul li .mega-menu-content .mega-menu-title{
+		float: none !important;
+		width: 100%;
+	}
+}

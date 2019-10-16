@@ -1,0 +1,4 @@
+<div class="title-block">
+    <h2>This is <span>title</span> h</h2>
+    <span>A short sub-text to define the title</span>
+</div>
